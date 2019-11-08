@@ -1,6 +1,5 @@
 package com.francis.wordcount
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
@@ -9,7 +8,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
-
 
 class MainActivity : AppCompatActivity() {
 
@@ -46,7 +44,6 @@ class MainActivity : AppCompatActivity() {
             startActivityForResult(intent, NEW_WORD_ACTIVITY_REQUEST_CODE)
         }
     }
-
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
